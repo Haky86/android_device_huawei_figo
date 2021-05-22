@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_figo.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_figo-user \
+    lineage_figo-userdebug \
+    lineage_figo-eng
